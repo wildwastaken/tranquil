@@ -1,0 +1,6 @@
+framework module Pods_tranquil_WatchKit_Extension {
+  umbrella header "Pods-tranquil WatchKit Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}
