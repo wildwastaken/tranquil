@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		0F8C01BF9191C078EAAA5ACE /* Pods_WatchHRV_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4F078EFA6263C55A829240 /* Pods_WatchHRV_WatchKit_Extension.framework */; };
 		1CF24943D8A6C505BD25AA52 /* Pods_WatchHRV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9423BEC7152849D59BFD407 /* Pods_WatchHRV.framework */; };
+		2068F3FD26859B37003FEDAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2068F3FC26859B37003FEDAB /* GoogleService-Info.plist */; };
 		5484FD1DA17BAA3133767499 /* Pods_WatchHRV_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC10D9CDAA96AEC3C476C389 /* Pods_WatchHRV_WatchKit_App.framework */; };
-		5AAFA78325ABA8F400989566 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AAFA78225ABA8F400989566 /* GoogleService-Info.plist */; };
-		5AAFA78425ABA8F400989566 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AAFA78225ABA8F400989566 /* GoogleService-Info.plist */; };
-		5AAFA78525ABA8F400989566 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AAFA78225ABA8F400989566 /* GoogleService-Info.plist */; };
 		7E8737831FC0EAA6008EFC89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8737821FC0EAA6008EFC89 /* AppDelegate.swift */; };
 		7E8737881FC0EAA6008EFC89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8737861FC0EAA6008EFC89 /* Main.storyboard */; };
 		7E87378A1FC0EAA6008EFC89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E8737891FC0EAA6008EFC89 /* Assets.xcassets */; };
@@ -74,8 +72,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2068F3FC26859B37003FEDAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3DEEE69A2755B4D512930054 /* Pods-WatchHRV WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchHRV WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-WatchHRV WatchKit Extension/Pods-WatchHRV WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
-		5AAFA78225ABA8F400989566 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6B72625F5FF438892C507D4F /* Pods-WatchHRV WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchHRV WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-WatchHRV WatchKit App/Pods-WatchHRV WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		7E87377F1FC0EAA6008EFC89 /* WatchHRV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchHRV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8737821FC0EAA6008EFC89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -171,7 +169,7 @@
 				7E8737891FC0EAA6008EFC89 /* Assets.xcassets */,
 				7E87378B1FC0EAA6008EFC89 /* LaunchScreen.storyboard */,
 				7E87378E1FC0EAA6008EFC89 /* Info.plist */,
-				5AAFA78225ABA8F400989566 /* GoogleService-Info.plist */,
+				2068F3FC26859B37003FEDAB /* GoogleService-Info.plist */,
 			);
 			path = WatchHRV;
 			sourceTree = "<group>";
@@ -355,7 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E87378D1FC0EAA6008EFC89 /* LaunchScreen.storyboard in Resources */,
-				5AAFA78325ABA8F400989566 /* GoogleService-Info.plist in Resources */,
+				2068F3FD26859B37003FEDAB /* GoogleService-Info.plist in Resources */,
 				7E87378A1FC0EAA6008EFC89 /* Assets.xcassets in Resources */,
 				7E8737881FC0EAA6008EFC89 /* Main.storyboard in Resources */,
 			);
@@ -367,7 +365,6 @@
 			files = (
 				7E87379A1FC0EAA6008EFC89 /* Assets.xcassets in Resources */,
 				7E8737981FC0EAA6008EFC89 /* Interface.storyboard in Resources */,
-				5AAFA78425ABA8F400989566 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +373,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E8737AE1FC0EAA6008EFC89 /* Assets.xcassets in Resources */,
-				5AAFA78525ABA8F400989566 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,7 +594,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -654,7 +650,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -751,14 +747,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = WatchHRV/WatchHRV.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RQQF9V8N3U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WatchHRV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.allenliu.WatchHRV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -776,7 +772,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.allenliu.WatchHRV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
